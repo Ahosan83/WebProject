@@ -1,0 +1,164 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    
+}
+
+body{
+    font-family:'poppons',sans-serif;
+    line-height:1.6;
+    background:#f8f9fa;
+    color:#333;
+}
+
+nav {
+    display: flex;
+    justify-content:space-between;
+    alighn-items:center;
+    background:#222;
+    color:white;
+    padding:15px 50px;
+}
+
+.logo{
+    font-size:24px;
+    font-weight:bold;
+}
+
+nav ul {
+    margin-left:20px;
+}
+
+nav ul{
+    list-style:none;
+    display:flex;
+}
+
+nav ul li{
+    margin-left:20px;
+}
+
+nav ul li a {
+    text-decoration:none;
+    color:white;
+    font-weight: 500;
+    transition:0.3s;
+    
+}
+
+nav ul li a:hover{
+    color:#00bcd4;
+}
+
+.home{
+    background:linear-gradient(to right,#00bcd4,#007bff);
+    color:white;
+    text-align:center;
+    padding:100px  20px;
+    
+}
+
+
+.home h2 span{
+    color:yellow;
+    
+}
+
+.btn{
+    display:inline-block;
+    margin-top:20px;
+    padding:10px 20px;
+    background:white;
+    color:#007bff;
+    border-radius:5px;
+    text-decoration:none;
+    font-wight:bold;
+    transition:0.3s;
+    
+}
+
+.btn:hover{
+    background:#007bff;
+    color:white;
+    
+}
+
+.about{
+    max-width:600px;
+    margin:20px auto;
+    
+}
+
+.skills{
+    background:#f1f1f1;
+    padding:60px 20px;
+    text-align :center;
+    
+}
+
+.skill-box{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:15px;
+    margin-top:20px;
+}
+
+.skill{
+    background:#007bff;
+    color:white;
+    padding:10px 20px;
+    border-radius:5px;
+    
+}
+
+.projects{
+    padding:60px 20px;
+    text-align:center;
+    
+}
+
+.project-box{
+ display:flex;
+ justify-content:center;
+ flex-wrap:wrap;
+ gap:20px
+ 
+}
+
+.card{
+    background:#fff;
+    padding:20px;
+    width:250px;
+    border-radius:8px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.1);
+    transition:0.3s;
+    
+}
+
+.card:hover{
+    transform:scale(1.05);
+}
+
+.contact{
+    background:#007bff;
+    color:white;
+    text-align:center;
+    padding:60px 20px;
+    
+}
+
+
+.contact a{
+    color:yellow;
+    text-decoration:none;
+}
+
+footer{
+    background:#222;
+    color:#ccc;
+    text-align:center;
+    padding:15px 0;
+    
+}
